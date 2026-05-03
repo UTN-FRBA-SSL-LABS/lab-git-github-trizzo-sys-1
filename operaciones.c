@@ -2,7 +2,8 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+/* agrego const al parámetro a y b al ser parámetros de solo lectura */
+int sumar(const int a,const  int b) {
     return a + b;
 }
 
